@@ -7,6 +7,8 @@
 
   <!-- Angular doesn't create the <p> element because the product's description property is empty. -->
   <p *ngIf="product.description">Description: {{ product.description }}</p>
+
+  <button type="button" (click)="share()">Share</button>
 </div>
 
 <!-- 
